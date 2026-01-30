@@ -20,6 +20,9 @@ Currently, it is possible to query Find My Device / Find Hub trackers and Androi
 - Install the latest version of Google Chrome: https://www.google.com/chrome/
 - Start the program by running [main.py](main.py): `python main.py` or `python3 main.py`
 
+### Notes on Chrome / ChromeDriver
+This repo now auto-detects your installed Chrome version and downloads a matching ChromeDriver so it works with current stable releases. It also includes small stability fixes to avoid noisy ChromeDriver shutdown errors on Windows.
+
 ### Authentication
 
 On the first run, an authentication sequence is executed, which requires a computer with access to Google Chrome.
